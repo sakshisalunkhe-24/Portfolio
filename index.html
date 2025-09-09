@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a> 
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="profile.jpeg" alt="Profile Picture" class="profile-pic"> 
+    <h2>Hello, I'm <span class="highlight">Sakshi Salunkhe</span></h2>
+    <p><span id="typing"></span></p>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+	<br>
+    <p>
+      Hi, I'm Sakshi Salunkhe, A final-year (BCA) undergraduate with a CGPA of <strong>7.53</strong> (3rd sem). <br>Fueled by a passion for Python Programming, Artificial Intelligence, Java Programming, <br>and Web Technologies.
+ 	  I thrive at the intersection of innovation and problem-solving.<br>
+ With an unshakable growth mindset, I aspire to evolve into a global tech leader, building solutions that transcend boundaries and shape the future of technology.
+    </p>
+    <a href="C:\Users\salun\Desktop\new portfolio\files\final resume new.pdf" download class="cv-btn">
+      <i class="fas fa-download"></i> Download CV
+    </a>
+  </section>
+
+  <!-- Education Section -->
+<section id="education" class="education fade-in">
+  <h2>Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="timeline-content">
+        <img src="dyp.jpeg" alt="dy patil University" class="edu-pic">
+        <h3>Bachelor of Computer Applications</h3>
+        <span class="date">2024 – 2026</span>
+        <p>Dr.D.Y Patil University, Kolhapur</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon"><i class="fas fa-school"></i></div>
+      <div class="timeline-content">
+        <img src="gayatri.jpeg" alt="secondary education" class="edu-pic">
+        <h3>Secondary Education</h3>
+        <span class="date">2022 – 2023</span>
+        <p>Gayatri English Medium School & Junior College, Pune</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon"><i class="fas fa-book"></i></div>
+      <div class="timeline-content">
+        <img src="sterling.jpeg" alt="primary education" class="edu-pic">
+        <h3>Primary Education</h3>
+        <span class="date">2014 – 2021</span>
+        <p>NCRD Sterling High School, Pune</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills slide-up">
+    <h2>Skills</h2>
+	<br>
+    <div class="skills-container">
+      <div class="skill">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <div class="progress-bar">
+          <div class="progress html">90%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <div class="progress-bar">
+          <div class="progress css">85%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <span><i class="fab fa-js"></i> JavaScript</span>
+        <div class="progress-bar">
+          <div class="progress js">75%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <span><i class="fab fa-python"></i> Python</span>
+        <div class="progress-bar">
+          <div class="progress python">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <span><i class="fab fa-java"></i> Java</span>
+        <div class="progress-bar">
+          <div class="progress java">80%</div>
+        </div>
+      </div>
+	  <div class="skill">
+        <span><i class="fab fa-c"></i> C</span>
+        <div class="progress-bar">
+          <div class="progress c">85%</div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio fade-in">
+    <h2>Projects</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <img src="sss.jpg" alt="Project 1">
+        <div class="overlay">
+          <h3>AI-Powered Virtual Assistant</h3>
+		  <br>
+          <p>A voice-controlled virtual assistant built with Alexa skills kit, enabling<br> smart interaction with users, play youtube songs, tell jokes, and <br>information retrival.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="oo.png" alt="Project 2">
+        <div class="overlay">
+          <h3>Personal Portfolio Website</h3>
+		  <br>
+          <p>A personal portfolio website showcasting projects, skills, and achievements, designed with a responsive layout and modern UI for a professional online presence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact slide-up">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <a href="mailto:sakshisalunkhe466@gmail.com" class="contact-item">
+        <i class="fas fa-envelope"></i> E-Mail
+      </a>
+      <a href="tel:+8237205249" class="contact-item">
+        <i class="fas fa-phone"></i> Contact 
+      </a>
+      <a href="https://github.com/sakshisalunkhe-24" target="_blank" class="contact-item">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/sakshisalunkhe01" target="_blank" class="contact-item">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i> Pimpri-Chinchwad, Pune, India
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Sakshi Salunkhe | © 2025</p>
+  </footer>
+
+
+
+  <!-- Back to Top Button -->
+  <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+
+  
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle"><i class="fas fa-moon"></i></button>
+
+  <script src="index.js"></script>
+</body>
+</html>
