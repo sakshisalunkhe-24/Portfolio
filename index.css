@@ -32,7 +32,7 @@ header h1 {
 
 header nav a {
   color: #fff;
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -550,4 +550,5 @@ body.dark .portfolio-item {
 
 body.dark .overlay {
   background: rgba(0, 173, 181, 0.9);
+
 }
