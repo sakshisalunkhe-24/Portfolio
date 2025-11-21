@@ -1,6 +1,6 @@
 // Typing Effect
 const typingElement = document.getElementById("typing");
-const roles = ["Aspiring Global Tech Professional"];
+const roles = ["Web Developer"];
 let roleIndex = 0;
 let charIndex = 0;
 let typingForward = true;
@@ -110,4 +110,5 @@ window.addEventListener("scroll", () => {
       link.classList.add("active");
     }
   });
+
 });
